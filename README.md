@@ -99,14 +99,14 @@ To run the frontend:
 
 
 
-<pre>
+
 - Method   Endpoint        Description              Request Body
 - GET      /tasks          Get all tasks            -
 - POST     /tasks          Create a new task        { taskName,  isDone } 
 - PUT      /tasks/:id      Update a task by ID      { taskName,  isDone } 
 - DELETE   /tasks/:id      Delete a task by ID      -
 
-</pre>
+
 
 
 
@@ -142,7 +142,7 @@ To run the frontend:
         "success": true
        }
         <pre>
-    2. Get All Tasks (GET)
+2. Get All Tasks (GET)
       Method: GET
 
       URL: /tasks
