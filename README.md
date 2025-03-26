@@ -73,24 +73,24 @@ PORT=8080
 
 ## Step 4: Run the Application
 To run the backend:
- ```sh
+ 
    cd backend
-   ```
+ 
 
 
- ```sh
+ 
    npm start
-   ```
+  
 
 
 
 To run the frontend:
- ```sh
+ 
    cd frontend
-   ```
-    ```sh
+ 
+   
    npm start
-   ```
+  
 
 
 
@@ -111,16 +111,16 @@ To run the frontend:
 1. Open Postman and create a new collection for your API.
 
 2. Set Base URL:
- ```sh
+
    http://localhost:8080
-   ```
+ 
   
 3. Create Requests:
     1. Create a Task (POST)
        Method: POST
 
       URL: /tasks
-     <pre>
+     
      Body (JSON):  
 
  
@@ -129,15 +129,15 @@ To run the frontend:
         "isDone": false
       } 
 
-     <pre>
+     
 
         Expected Response:
-        <pre>
+        
         {
          "message": "Task is created",
         "success": true
        }
-        <pre>
+       
 2. Get All Tasks (GET)
       Method: GET
 
