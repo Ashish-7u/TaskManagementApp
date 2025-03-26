@@ -27,13 +27,13 @@ Git
 
 ## Step 1: Clone the Repository
 
-```sh
-  git clone [<repository-url>](https://github.com/Ashish-7u/TaskManagementApp)
-   ```
 
-   ```sh
+  git clone [<repository-url>](https://github.com/Ashish-7u/TaskManagementApp)
+  
+
+  
   cd MERN-Task-Manager-App
-   ```
+  
 
 
 
@@ -41,26 +41,22 @@ Git
 
 ## Step 2: Install Dependencies
 Backend
-```sh
-   cd backend
-   ```
 
-```sh
+   cd backend
+  
+
+
   npm install
-   ```
+ 
 
 
 
 
 Frontend
 
-```sh
 cd frontend
-   ```
+npm install
 
-```sh
-  npm install
-   ```
 
 
 
